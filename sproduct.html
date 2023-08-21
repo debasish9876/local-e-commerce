@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>shop page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="image/debsishpass.jpg" class="logo" alt=""></a>
+      
+        <div>
+          <ul id="navbar">
+            <li><a href="debasish.html">Home</a></li>
+            <li><a class="active" href="shop.html">shop</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="cart.html">My cart</a></li>
+             
+          </ul>
+        </div>
+      </section>
+
+    <section  id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="image/DFWEFREW.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="image/DFWEFREW.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="image/Inkeddebsishpass_a1..jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="image/DFWEFREW.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="image/DFWEFREW.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details" >
+            <h3>Arrsribadd atta</h3>
+            <h4>Worlds sudha chakki fresh atta</h4>
+            <h2>100/-</h2>
+            <h2>1 Kg pactecft</h2>
+            <h4>select Quantity <input type="number" value="1"></h4>   
+            <button class="normal" onclick="window.location.href='payment.html';">Buy</button>
+            <h4 class="sdes">this is a sudh chaki press atta which is fully famous in whole india. it have zero% Maida which is very very good to health and it will also maintain your dite ,as well as controll your balance</h4>
+        </div>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2>product you also may like</h2>
+        <p>collection of the city mart</p>
+        <div class="pro-container">
+          <div class="pro">
+            <img src="image/DFWEFREW.jpg" alt="">
+            <div class="des">
+              <span>Asirbad ATTA</span>
+              <h5>order it now</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>100/-</h4>
+            </div>
+             <a href="#"><button class="btn">Buy</button></a>
+          </div>
+          <div class="pro">
+            <img src="image/DFWEFREW.jpg" alt="">
+            <div class="des">
+              <span>Asirbad ATTA</span>
+              <h5>order it now</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>100/-</h4>
+            </div>
+             <a href="#"><button class="btn">Buy</button></a>
+          </div>
+          <div class="pro">
+            <img src="image/DFWEFREW.jpg" alt="">
+            <div class="des">
+              <span>Asirbad ATTA</span>
+              <h5>order it now</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>100/-</h4>
+            </div>
+             <a href="#"><button class="btn">Buy</button></a>
+          </div>
+          <div class="pro">
+            <img src="image/DFWEFREW.jpg" alt="">
+            <div class="des">
+              <span>Asirbad ATTA</span>
+              <h5>order it now</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>100/-</h4>
+            </div>
+             <a href="#"><button class="btn">Buy</button></a>
+          </div>
+          <div class="pro">
+            <img src="image/DFWEFREW.jpg" alt="">
+            <div class="des">
+              <span>Asirbad ATTA</span>
+              <h5>order it now</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>100/-</h4>
+            </div>
+             <a href="#"><button class="btn">Buy</button></a>
+          </div>
+
+        </div>
+    </section>
+
+    <script>
+         var MainImg = document.getElementById("MainImg");
+         var smallimg = document.getElementsByClassName("small-img");
+
+         smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+         }
+         smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+         }
+         smallimg[2].onclick = function() {
+            MainImg.src = smallimg[0].src;
+         }
+         smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+         }
+    </script>
+
+
+<footer class="section-p1" id="foot">
+  <div class="col">
+    <span class="span-logo"><a href="#"><img src="image/logo-no-background.png" class="logo"  width="85" height="100" alt=""></a></span>
+    <h4>Contact</h4>
+    <p> <strong>Addresh:</strong> Rupa Market Complex, Marathiguda,Gunupur</p>
+    <p><strong>Phone:</strong>7848084152</p>
+    <p><strong>Hours:</strong>24*7</p>
+    <div class="follow">
+      <h4>follow us</h4>
+      <div class="icon">
+        <i class="fab fa-face-f" ></i>
+        <i class="fab fa-twiter"></i>
+        <I class="fab fa-instagram"></I>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <h4>About</h4>
+    <a href="about.html">About Us</a>
+    <a href="#">Delivery Information</a>
+    <a href="#">Privecy Policy</a>
+    <a href="#">Terms and Condition</a>
+    <a href="#">Contact Us</a>
+  </div>
+  <div class="col">
+    <h4>My account</h4>
+    <a href="#">Sign In</a>
+    <a href="#">Viwe Cart</a>
+    <a href="#">My Wishlist</a>
+    <a href="#">Track My order</a>
+    <a href="#">Help</a>
+  </div>
+
+  <div class="col-install">
+    <h4>Install app</h4>
+    <p>From app store and google play</p>
+    <div class="row ">
+      <img src="#" alt="">
+      <img src="#" alt="">
+    </div>
+    <p>secured payment gateway</p>
+    <img src="#" alt="">
+  </div>
+
+  <div class="copyright">
+    <p>@ 2023,citymart Ecommerce</p>
+  </div>
+</footer>
+</body>
+</html>
